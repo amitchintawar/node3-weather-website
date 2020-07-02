@@ -1,7 +1,5 @@
 console.log('client side js file loaded')
 
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
@@ -28,5 +26,4 @@ weatherForm.addEventListener('submit', (e) => {
     } else {
         console.log('You must enter a location')
     }
- 
 })
